@@ -1,4 +1,5 @@
 import { Box } from "@radix-ui/themes";
+
 import * as styles from "./styles.css";
 
 export const Footer = () => {

@@ -2,8 +2,8 @@ import { flexColumnCenter } from "@/shared/styles/grid-system.css";
 import { style } from "@vanilla-extract/css";
 
 export const footer = style({
-  borderTop: "3px solid #b22222",
   textAlign: "center",
+  borderTop: "3px solid #b22222",
   background: "var(--gray-a2)",
 });
 
