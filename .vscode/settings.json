@@ -12,8 +12,6 @@
     "typescript",
     "typescriptreact"
   ],
-  "eslint.workingDirectories": ["./fds-architecture"],
-  "eslint.useFlatConfig": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.wordWrapColumn": 80,
