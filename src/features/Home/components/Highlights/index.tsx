@@ -1,4 +1,5 @@
-import Dark_Side_of_the_Moon from "@/shared/assets/images/Dark_Side_of_the_Moon.png";
+import { BoltGradientIcon } from '@/shared/assets/icons/BoltGradientIcon';
+import Dark_Side_of_the_Moon from '@/shared/assets/images/Dark_Side_of_the_Moon.png';
 import {
   card,
   cardBand,
@@ -6,28 +7,28 @@ import {
   cardImage,
   cardPrice,
   cardTitle,
-} from "@/shared/styles/card.css";
-import { flexCenter, flexColumn } from "@/shared/styles/grid-system.css";
-import { Heading } from "@radix-ui/themes";
-import { FaBolt } from "react-icons/fa";
-import * as styles from "./styles.css";
+} from '@/shared/styles/card.css';
+import { flexCenter, flexColumn } from '@/shared/styles/grid-system.css';
+import { Heading } from '@radix-ui/themes';
+import * as styles from './styles.css';
 
 export const Highlights = () => {
   return (
     <div className={flexColumn}>
       <h2 className={styles.title}>
-        <FaBolt /> Em Alta
+        <BoltGradientIcon width='1em' height='1em' />
+        Em Alta
       </h2>
 
-      <div className={flexCenter} style={{ gap: "2rem", padding: "2rem" }}>
-        <div className={card} style={{ cursor: "pointer" }}>
+      <div className={flexCenter} style={{ gap: '2rem', padding: '2rem' }}>
+        <div className={card} style={{ cursor: 'pointer' }}>
           <img
             className={cardImage}
             src={Dark_Side_of_the_Moon.src}
-            alt="Camiseta Pink Floyd"
+            alt='Camiseta Pink Floyd'
           />
 
-          <Heading as="h3" size="4" className={cardTitle}>
+          <Heading as='h3' size='4' className={cardTitle}>
             Dark side of the moon
           </Heading>
           <span className={cardBand}>Pink Floyd</span>
@@ -35,13 +36,13 @@ export const Highlights = () => {
           <button className={cardButton}>Garantir</button>
         </div>
 
-        <div className={card} style={{ cursor: "pointer" }}>
+        <div className={card} style={{ cursor: 'pointer' }}>
           <img
             className={cardImage}
             src={Dark_Side_of_the_Moon.src}
-            alt="Camiseta Pink Floyd"
+            alt='Camiseta Pink Floyd'
           />
-          <Heading as="h3" size="4" className={cardTitle}>
+          <Heading as='h3' size='4' className={cardTitle}>
             Dark side of the moon
           </Heading>
           <span className={cardBand}>Pink Floyd</span>
@@ -49,13 +50,13 @@ export const Highlights = () => {
           <button className={cardButton}>Garantir</button>
         </div>
 
-        <div className={card} style={{ cursor: "pointer" }}>
+        <div className={card} style={{ cursor: 'pointer' }}>
           <img
             className={cardImage}
             src={Dark_Side_of_the_Moon.src}
-            alt="Camiseta Pink Floyd"
+            alt='Camiseta Pink Floyd'
           />
-          <Heading as="h3" size="4" className={cardTitle}>
+          <Heading as='h3' size='4' className={cardTitle}>
             Dark side of the moon
           </Heading>
           <span className={cardBand}>Pink Floyd</span>

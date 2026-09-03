@@ -1,7 +1,8 @@
+import { mediaQueries } from '@/shared/styles/breakpoints';
 import { colors } from '@/shared/styles/colors.css';
 import { style } from '@vanilla-extract/css';
 
-export const heroHeader = style({
+export const header = style({
   display: 'flex',
   flexDirection: 'column',
   gap: '1.5rem',
@@ -17,7 +18,12 @@ export const headerContent = style({
   flexWrap: 'wrap',
   alignItems: 'center',
   justifyContent: 'space-between',
-  // mediaquery flex-direction: column; gap: 20px;
+  '@media': {
+    [mediaQueries.smartphone]: {
+      flexDirection: 'column',
+      gap: '20px',
+    },
+  },
 });
 
 export const title = style({
@@ -44,6 +50,9 @@ export const headerActions = style({
 });
 
 export const link = style({
+  display: 'flex',
+  alignItems: 'center',
+  gap: '0.5rem',
   padding: '10px 20px',
   fontWeight: 'bold',
   border: `1px solid ${colors.primary}`,

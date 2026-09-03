@@ -8,8 +8,7 @@ export const Navbar = () => {
         <li><a href="#" className={styles.a}>Início</a></li>
         <li><a href="#" className={styles.a}>Novidades</a></li>
         <li><a href="#" className={styles.a}>Promoções</a></li>
-        <li><a href="#" className={styles.a}>Bandas A-Z</a></li>
-        <li><a href="#" className={styles.a}>Estilos</a></li>
+        <li><a href="#" className={styles.a}>Categorias</a></li>
         <li><a href="#" className={styles.a}>Contato</a></li>
       </ul>
     </nav>

@@ -1,10 +1,12 @@
 import { Heading } from '@radix-ui/themes';
+import { BiSearchAlt } from 'react-icons/bi';
+import { FaShoppingCart } from 'react-icons/fa';
 import { Navbar } from './NavBar';
 import * as styles from './styles.css';
 
 export const Header = () => {
   return (
-    <header className={styles.heroHeader}>
+    <header className={styles.header}>
       <div className={styles.headerContent}>
         <div
           style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
@@ -15,10 +17,10 @@ export const Header = () => {
         </div>
         <div className={styles.headerActions}>
           <a href='#' className={styles.link}>
-            🎸 Buscar
+            <BiSearchAlt style={{ transform: ' scaleX(-1)' }} /> Buscar
           </a>
           <a href='#' className={styles.link}>
-            🛒 Carrinho (0)
+            <FaShoppingCart /> Carrinho (0)
           </a>
         </div>
       </div>
