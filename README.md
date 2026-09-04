@@ -1,4 +1,4 @@
-# art-school
+# Dr Shirt
 
 Projeto Loja fictícia de camisetas temáticas (site/loja + painel de gerenciamento)
 
@@ -11,6 +11,11 @@ Projeto Loja fictícia de camisetas temáticas (site/loja + painel de gerenciame
 ## Status
 
 🚧 Em construção
+
+Preview do projeto atualmente:
+
+https://github.com/user-attachments/assets/e5175fda-c452-4b46-9e25-d77510284069
+
 
 ## Getting Started
 
