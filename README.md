@@ -3,7 +3,9 @@
 Projeto Loja fictícia de camisetas temáticas (site/loja + painel de gerenciamento)
 
 → Linguagens e ferramentas utilizadas: React.js, Next.js, Typescript.
+
 → Bibliotecas auxiliares: vanilla-extract, radix-ui, react-icons.
+
 → Arquitetura: FDS-Architecture (docs: https://github.com/ItalyChristian/feature-oriented-domain-architecture-for-scalable-ecosystems)
 
 ## Status
