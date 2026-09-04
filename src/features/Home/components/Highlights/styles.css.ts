@@ -1,3 +1,4 @@
+import { mediaQueries } from '@/shared/styles/breakpoints';
 import { style } from '@vanilla-extract/css';
 
 export const title = style({
@@ -11,4 +12,25 @@ export const title = style({
   fontSize: '2rem',
   fontFamily: 'Georgia',
   borderBottom: '2px dashed #b22222',
+
+  '@media': {
+    [mediaQueries.smartphone]: {
+      marginInline: '4rem',
+    },
+  },
+});
+
+export const cardsContainer = style({
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  gap: '2rem',
+  padding: '2rem',
+
+  '@media': {
+    [mediaQueries.smartphone]: {
+      flexDirection: 'column',
+      paddingInline: '4rem',
+    },
+  },
 });

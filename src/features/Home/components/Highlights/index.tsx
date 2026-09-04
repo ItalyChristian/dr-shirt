@@ -8,7 +8,7 @@ import {
   cardPrice,
   cardTitle,
 } from '@/shared/styles/card.css';
-import { flexCenter, flexColumn } from '@/shared/styles/grid-system.css';
+import { flexColumn } from '@/shared/styles/grid-system.css';
 import { Heading } from '@radix-ui/themes';
 import * as styles from './styles.css';
 
@@ -20,7 +20,7 @@ export const Highlights = () => {
         Em Alta
       </h2>
 
-      <div className={flexCenter} style={{ gap: '2rem', padding: '2rem' }}>
+      <div className={styles.cardsContainer}>
         <div className={card} style={{ cursor: 'pointer' }}>
           <img
             className={cardImage}
