@@ -14,8 +14,7 @@ Projeto Loja fictícia de camisetas temáticas (site/loja + painel de gerenciame
 
 Preview do projeto atualmente:
 
-https://github.com/user-attachments/assets/e5175fda-c452-4b46-9e25-d77510284069
-
+https://github.com/user-attachments/assets/fc30e5b1-1865-4ceb-9ed2-844aa1fe9c4d
 
 ## Getting Started
 
